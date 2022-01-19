@@ -1,0 +1,41 @@
+[
+  {
+    "type": "input",
+    "name": "firstName",
+    "placeholder": "Renatto",
+    "label": "First Name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required",
+        "message": "El campo es requerido"
+      },
+      {
+        "type": "minLength",
+        "value": 5,
+        "message": "El campo debe tener minino 5 caracteres"
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "lastName",
+    "placeholder": "Neciosup",
+    "label": "Last Name",
+    "value": ""
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "placeholder": "Correo electronico",
+    "label": "E-mail",
+    "value": ""
+  },
+  {
+    "type": "select",
+    "name": "favoriteGame",
+    "label": "Favorite Game",
+    "value": "",
+    "options": [{"id":1, "label": "Super Smash"}, {"id": 2, "label": "Amarillo"}, {"id": 3, "label": "Rojo"}, {"id": 4, "label": "Verde"}]
+  }
+]
